@@ -1,0 +1,38 @@
+
+header{
+    background: rgb(68, 68, 68);
+    padding: 15px;
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+        .logo{
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        input{
+            height: 30px;
+            width:350px;
+            border: none;
+            padding: 0px 10px;
+        }
+        .search-btn{
+            background: rgb(233, 97, 37);
+            border: none;
+            padding: 0px 10px;
+            height: 30px;
+            cursor: pointer;
+            color: #fff;
+        }
+        .header-links{
+            span{
+                margin-right: 20px;
+                cursor: pointer;
+                color: #fff;
+            }
+        }
+    }
+}
